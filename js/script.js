@@ -79,8 +79,8 @@ $(document).ready(function () {
       items: 1,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
-      smartSpeed: 1000,
-      autoplay: 6000,
+      // smartSpeed: 1000,
+      // autoplay: 6000,
     });
   }
 });

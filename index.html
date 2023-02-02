@@ -1090,9 +1090,7 @@
     <!----------------------------------------->
     <!----- Main Section ----->
     <!----------------------------------------->
-    <main
-      class="hero bg-default-dark-blue h-[660px] sm:h-[700px] md:h-[880px] relative"
-    >
+    <main class="hero bg-default-dark-blue sm:h-[700px] md:h-[800px] lg:h-[880px] relative">
       <!-- Background Images -->
       <div class="bg_img">
         <!-- Top bg -->
@@ -1128,24 +1126,22 @@
             ></div>
           </div>
 
-          <div
-            class="container text-white text-start lg:grid lg:grid-cols-2 gap-6 relative"
-          >
+          <div class="container text-white text-start relative w-full">
             <!-- Container bottle -->
             <div
-              class="large_bottle absolute h-[450px] w-[990px] right-2 bottom-[60px] hidden lg:flex"
+              class="large_bottle hidden sm:absolute h-[310px] w-[580px] sm:h-[340px] sm:w-[760px] md:h-[450px] md:w-[800px] lg:h-[450px] lg:w-[990px] right-2 bottom-[30px] sm:bottom-[60px] sm:flex"
             >
               <!-- water drop -->
               <div class="water_drop">
                 <img
-                  class="absolute h-full w-full bottom-[-152px] right-[-177px]"
+                  class="absolute h-full w-full -bottom-[95px] md:bottom-[-152px] right-[-120px] sm:right-[-177px]"
                   src="./images/main/vector-2.png"
                   alt="water-drop"
                 />
               </div>
               <div class="bottle_img flex justify-center">
                 <img
-                  class="w-[280px] h-[528px] absolute bottom-[-72px] right-[133px]"
+                  class="w-[180px] h-[380px] sm:w-[220px] sm:h-[430px] md:w-[250px] md:h-[480px] lg:w-[280px] lg:h-[528px] absolute -bottom-[38px] right-[50px] sm:-bottom-[30px] md:bottom-[-61px] sm:right-[56px] lg:bottom-[-72px] lg:right-[133px]"
                   src="./images/main/vector-1.png"
                   alt="bottle"
                 />
@@ -1153,23 +1149,25 @@
             </div>
             <!-- Contents -->
             <div
-              class="left_content xs:-translate-y-16 -translate-y-20 lg:-translate-y-32 flex flex-col justify-center gap-8 md:gap-10"
+              class="left_content pt-32 sm:py-0 w-[95%] sm:w-[55%] md:w-[60%] lg:w-[50%] sm:-translate-y-16 lg:-translate-y-32 flex flex-col justify-center gap-5 sm:gap-8 md:gap-10"
             >
               <div class="header flex justify-center">
                 <h1
-                  class="leading-tight text-3xl xs:leading-tight xs:text-4xl md:leading-tight md:text-6xl"
+                  class="leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-3xl sm:text-4xl md:text-[3.5rem] lg:text-6xl"
                 >
                   Always Want Safe and Good Water for Healthy Life
                 </h1>
               </div>
-              <div class="text max-w-[25rem] md:max-w-[30rem] text-xl">
+              <div class="text sm:max-w-[25rem] md:max-w-[30rem] text-xl">
                 <p>
                   Water is the most valuable source for living species that is
                   the most hardest thing to find.
                 </p>
               </div>
               <!-- Buttons -->
-              <div class="buttons flex flex-wrap gap-6">
+              <div
+                class="buttons flex flex-col justify-start items-start md:max-w-none md:flex-row gap-6"
+              >
                 <!-- blue button -->
                 <a
                   class="btn relative before:absolute before:w-[200%] before:h-[200%] before:top-[110%] before:left-1/2 before:transform before:-translate-x-1/2 before:rounded-[50%] before:bg-white sm:py-3 sm:px-10 before:transform-all before:duration-700 text-lg sm:text-xl overflow-hidden text-white hover:text-default-blue rounded-full py-2 md:py-4 px-5 md:px-8 font-bold capitalize bg-default-blue transition-all duration-500 before:overflow-hidden"
@@ -1185,170 +1183,24 @@
                   <span class="relative z-20">about more</span>
                 </a>
               </div>
+            </div>
+            <!-- Mobile Bottle -->
+            <div
+              class="mobile_bottle sm:hidden xs:-mt-10 py-6 sm:py-0 -mb-2 xs:-mb-6 translate-x-6 w-[120%]"
+            >
+              <img
+                class="w-[120%]"
+                src="./images/main/bottle_mobile.png"
+                alt="bottle"
+              />
             </div>
           </div>
         </div>
         <!-- Slide 2 -->
-        <div
-          class="item h-full w-full relative grid justify-center items-center"
-        >
-          <div class="inner_bg">
-            <!-- Shadow bg -->
-            <div
-              class="shadow_bg bg-shape-2 absolute left-0 bottom-0 w-full h-[363px] bg-no-repeat bg-[top_center] bg-cover"
-            ></div>
-            <!--  BLOBS  -->
-            <div
-              class="animated_blob absolute right-1/3 sm:right-40 lg:right-80 top-10 lg:top-32 bg-slate-400/10 w-[16rem] h-[16rem] md:w-[20rem] md:h-[20rem] rounded-full"
-            ></div>
-            <!-- Large Blob -->
-            <div
-              class="blob_large absolute -left-4 -top-52 bg-slate-400/10 w-[35rem] h-[35rem] rounded-full"
-            ></div>
-          </div>
 
-          <div
-            class="container text-white text-start lg:grid lg:grid-cols-2 gap-6 relative"
-          >
-            <!-- Container bottle -->
-            <div
-              class="large_bottle absolute h-[450px] w-[990px] right-2 bottom-[60px] hidden lg:flex"
-            >
-              <!-- water drop -->
-              <div class="water_drop">
-                <img
-                  class="absolute h-full w-full bottom-[-152px] right-[-177px]"
-                  src="./images/main/vector-2.png"
-                  alt="water-drop"
-                />
-              </div>
-              <div class="bottle_img flex justify-center">
-                <img
-                  class="w-[280px] h-[528px] absolute bottom-[-72px] right-[133px]"
-                  src="./images/main/vector-1.png"
-                  alt="bottle"
-                />
-              </div>
-            </div>
-            <!-- Contents -->
-            <div
-              class="left_content -translate-y-20 lg:-translate-y-32 flex flex-col justify-center gap-8 md:gap-10"
-            >
-              <div class="header flex justify-center">
-                <h1
-                  class="leading-tight text-3xl xs:leading-tight xs:text-4xl md:leading-tight md:text-6xl"
-                >
-                  Pure Drinking water for healthy life ensured
-                </h1>
-              </div>
-              <div class="text max-w-[25rem] md:max-w-[30rem] text-xl">
-                <p>
-                  We know you are searching for the purest and healthiest source
-                  for your daily water needs.
-                </p>
-              </div>
-              <!-- Buttons -->
-              <div class="buttons flex flex-wrap gap-6">
-                <!-- blue button -->
-                <a
-                  class="btn relative before:absolute before:w-[200%] before:h-[200%] before:top-[110%] before:left-1/2 before:transform before:-translate-x-1/2 before:rounded-[50%] before:bg-white sm:py-3 sm:px-10 before:transform-all before:duration-700 text-lg sm:text-xl overflow-hidden text-white hover:text-default-blue rounded-full py-2 md:py-4 px-5 md:px-8 font-bold capitalize bg-default-blue transition-all duration-500 before:overflow-hidden"
-                  href="#"
-                >
-                  <span class="relative z-20">our services</span>
-                </a>
-                <!-- White btn -->
-                <a
-                  class="btn relative before:absolute before:w-[200%] before:h-[200%] before:top-[110%] before:left-1/2 before:transform before:-translate-x-1/2 before:rounded-[50%] before:bg-white sm:py-3 sm:px-10 before:transform-all before:duration-700 text-lg sm:text-xl overflow-hidden text-white hover:text-default-blue rounded-full py-2 md:py-4 px-5 md:px-8 font-bold capitalize border border-stone-400/40 transition-all duration-500 before:overflow-hidden"
-                  href="#"
-                >
-                  <span class="relative z-20">about more</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         <!-- Slide 3 -->
-        <div
-          class="item h-full w-full relative grid justify-center items-center"
-        >
-          <div class="inner_bg">
-            <!-- Shadow bg -->
-            <div
-              class="shadow_bg bg-shape-2 absolute left-0 bottom-0 w-full h-[363px] bg-no-repeat bg-[top_center] bg-cover"
-            ></div>
-            <!--  BLOBS  -->
-            <div
-              class="animated_blob absolute right-1/3 sm:right-40 lg:right-80 top-10 lg:top-32 bg-slate-400/10 w-[16rem] h-[16rem] md:w-[20rem] md:h-[20rem] rounded-full"
-            ></div>
-            <!-- Large Blob -->
-            <div
-              class="blob_large absolute -left-4 -top-52 bg-slate-400/10 w-[35rem] h-[35rem] rounded-full"
-            ></div>
-          </div>
-
-          <div
-            class="container text-white text-start lg:grid lg:grid-cols-2 gap-6 relative"
-          >
-            <!-- Container bottle -->
-            <div
-              class="large_bottle absolute h-[450px] w-[990px] right-2 bottom-[60px] hidden lg:flex"
-            >
-              <!-- water drop -->
-              <div class="water_drop">
-                <img
-                  class="absolute h-full w-full bottom-[-152px] right-[-177px]"
-                  src="./images/main/vector-2.png"
-                  alt="water-drop"
-                />
-              </div>
-              <div class="bottle_img flex justify-center">
-                <img
-                  class="w-[280px] h-[528px] absolute bottom-[-72px] right-[133px]"
-                  src="./images/main/vector-1.png"
-                  alt="bottle"
-                />
-              </div>
-            </div>
-            <!-- Contents -->
-            <div
-              class="left_content -translate-y-20 lg:-translate-y-32 flex flex-col justify-center gap-8 md:gap-10"
-            >
-              <div class="header flex justify-center">
-                <h1
-                  class="leading-tight text-3xl xs:leading-tight xs:text-4xl md:leading-tight md:text-6xl"
-                >
-                  Water Solutions with Highest Purity ensured
-                </h1>
-              </div>
-              <div class="text max-w-[25rem] md:max-w-[30rem] text-xl">
-                <p>
-                  We have the facility to ensure the highest purity as we use
-                  the Top class equipments.
-                </p>
-              </div>
-              <!-- Buttons -->
-              <div class="buttons flex flex-wrap gap-6">
-                <!-- blue button -->
-                <a
-                  class="btn relative before:absolute before:w-[200%] before:h-[200%] before:top-[110%] before:left-1/2 before:transform before:-translate-x-1/2 before:rounded-[50%] before:bg-white sm:py-3 sm:px-10 before:transform-all before:duration-700 text-lg sm:text-xl overflow-hidden text-white hover:text-default-blue rounded-full py-2 md:py-4 px-5 md:px-8 font-bold capitalize bg-default-blue transition-all duration-500 before:overflow-hidden"
-                  href="#"
-                >
-                  <span class="relative z-20">our services</span>
-                </a>
-                <!-- White btn -->
-                <a
-                  class="btn relative before:absolute before:w-[200%] before:h-[200%] before:top-[110%] before:left-1/2 before:transform before:-translate-x-1/2 before:rounded-[50%] before:bg-white sm:py-3 sm:px-10 before:transform-all before:duration-700 text-lg sm:text-xl overflow-hidden text-white hover:text-default-blue rounded-full py-2 md:py-4 px-5 md:px-8 font-bold capitalize border border-stone-400/40 transition-all duration-500 before:overflow-hidden"
-                  href="#"
-                >
-                  <span class="relative z-20">about more</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
-
     <!----------------------------------------->
     <!----- Feature Section ----->
     <!----------------------------------------->
@@ -2961,7 +2813,3 @@
     <script src="./js/script.js"></script>
   </body>
 </html>
-
-<!----------------------------------------->
-<!----- Nav Section ----->
-<!----------------------------------------->
