@@ -250,7 +250,8 @@ p {
   transition-delay: 1400ms;
 }
 
-.hero_slider .large_bottle {
+.hero_slider .large_bottle,
+.hero_slider .mobile_bottle {
   opacity: 0;
   z-index: -1;
   -webkit-transform: translateY(100px);
@@ -277,4 +278,18 @@ p {
   -ms-transition-delay: 1000ms;
   -o-transition-delay: 1000ms;
   transition-delay: 1000ms;
+}
+
+.hero_slider .active .mobile_bottle {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition-delay: 1700ms;
+  -moz-transition-delay: 1700ms;
+  -ms-transition-delay: 1700ms;
+  -o-transition-delay: 1700ms;
+  transition-delay: 1700ms;
 }
