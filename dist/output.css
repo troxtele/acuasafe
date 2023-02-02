@@ -850,6 +850,14 @@ video {
   margin-bottom: -2rem;
 }
 
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
+.-mb-1 {
+  margin-bottom: -0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -2560,6 +2568,10 @@ p {
 @media (min-width: 400px) {
   .xs\:-mb-6 {
     margin-bottom: -1.5rem;
+  }
+
+  .xs\:w-\[95\%\] {
+    width: 95%;
   }
 
   .xs\:pb-32 {
