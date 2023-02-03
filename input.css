@@ -61,6 +61,10 @@ p {
 .nav_large ul .parent_li:hover > .sub_menu {
   @apply opacity-100 visible top-full;
 }
+/* Bottle Slider */
+main .header h1 {
+  @apply leading-[1.3]
+}
 
 /* Overflow section */
 .feature_section {
